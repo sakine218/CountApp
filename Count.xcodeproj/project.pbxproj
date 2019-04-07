@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1183CB8B22505849007B8373 /* background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1183CB8A22505849007B8373 /* background.jpeg */; };
 		11D35788225057F00035D260 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D35787225057F00035D260 /* AppDelegate.swift */; };
 		11D3578A225057F00035D260 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D35789225057F00035D260 /* ViewController.swift */; };
 		11D3578D225057F00035D260 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D3578B225057F00035D260 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1183CB8A22505849007B8373 /* background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpeg; sourceTree = "<group>"; };
 		11D35784225057F00035D260 /* Count.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Count.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D35787225057F00035D260 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11D35789225057F00035D260 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1183CB8C2250584F007B8373 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1183CB8A22505849007B8373 /* background.jpeg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		11D3577B225057F00035D260 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +107,7 @@
 		11D35786225057F00035D260 /* Count */ = {
 			isa = PBXGroup;
 			children = (
+				1183CB8C2250584F007B8373 /* images */,
 				11D35787225057F00035D260 /* AppDelegate.swift */,
 				11D35789225057F00035D260 /* ViewController.swift */,
 				11D3578B225057F00035D260 /* Main.storyboard */,
@@ -232,6 +243,7 @@
 				11D35792225057F20035D260 /* LaunchScreen.storyboard in Resources */,
 				11D3578F225057F20035D260 /* Assets.xcassets in Resources */,
 				11D3578D225057F00035D260 /* Main.storyboard in Resources */,
+				1183CB8B22505849007B8373 /* background.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2T75EV2YE;
+				DEVELOPMENT_TEAM = 6753PY9LZ8;
 				INFOPLIST_FILE = Count/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,7 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W2T75EV2YE;
+				DEVELOPMENT_TEAM = 6753PY9LZ8;
 				INFOPLIST_FILE = Count/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
